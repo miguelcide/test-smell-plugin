@@ -56,7 +56,7 @@ public class TestSmellDetectorPlugin extends AbstractMojo {
         TestSmellDetector testSmellDetector = new TestSmellDetector();
         BufferedWriter writer;
 		try {
-			writer = new BufferedWriter(new FileWriter("test-smells-in-"+ project.getName() + ".html"));
+			writer = new BufferedWriter(new FileWriter("test-smells-report.html"));
 		
         TestFile tempFile;
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
